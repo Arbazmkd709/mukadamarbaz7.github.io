@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Signika:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Signika:wght@700&family=Source+Serif+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: inherit;
+    background-color: rgb(243, 239, 239);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Signika', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 23px;
+    padding: 25px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+   /*background-color: rgb(10, 155, 240); */
+    height: 65vh;
+    width: 80vw;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Signika', sans-serif;
+}
+
+.hello {
+    font-size: 3em;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 3em;
+}
+
+.infocontainer div button{
+    color: slategray;
+    background-color: mintcream;
+    padding: 9px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.infocontainer div button:hover{
+    background-color: slategray;
+    color: mintcream;
+}
+
+.btn button{
+    margin-top: 30px;
+}
+
+.btn button{
+    padding: 9px;
+    border-radius: 20px;
+    color: slategrey;
+    background-color: mintcream;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: slategrey;
+    color: mintcream;
+}
+
+
+
+.devPic img {
+    width: 20vw;
+    padding: 50px;
+}
+
+.contactform{
+    padding: 0 30px;
+    padding-top: 50px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Signika', sans-serif;
+}
+
+.contactform h1{
+    margin-bottom: 40px;
+}
+
+.contactform form div label{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 15px 0 0 0;
+}
+
+.contactform form div input{
+    border-radius: 5px;
+    padding: 3px;
+    margin: 1px 0 0 0;
+}
+
+.contactform form p{
+    font-size: 15px;
+    color: rgb(7, 146, 151);
+}
+
+
+.project{
+    background-color: antiquewhite;
+    padding: 0 30px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Signika', sans-serif;
+}
+
+.intro h2{
+    margin: 12px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Signika', sans-serif;
+}
+
+.intro p{
+    margin: 10px;
+    font-family: 'Signika', sans-serif;
+}
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillitem{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Signika', sans-serif;
+}
+
+.skill{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: aqua;
+    border: 2px solid steelblue;
+}
+
+.t5{
+    width: 300px;
+}
+
+.t1{
+    width: 190px;
+}
+
+.t2{
+    width: 140px;
+}
+
+.t3{
+    width: 180px;
+}
+
+@media (max-width: 1000px) {
+ /*   *{
+        background-color: blue;
+    }*/
+    .devPic{
+        display: none;
+    }
+}
